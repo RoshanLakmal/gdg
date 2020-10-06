@@ -108,3 +108,8 @@ particlesJS("particles-js", {
   },
   retina_detect: true,
 });
+
+$(".carousel").carousel({
+  interval: 100,
+  pause: "false",
+});
