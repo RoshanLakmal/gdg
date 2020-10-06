@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <!-- <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    /> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/devfest.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" type="image/png" href="./img/icon.png" />
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+    <title>GDG Adelaide</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <a class="navbar-brand" href=".">
+        <img class="logo" src="./img/gdg-logo.png" alt="logo" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto my-nav-item">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="event.html">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="team.html">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+        <button
+          class="btn btn-outline-primary my-2 my-sm-0 my-nav-item"
+          type="submit"
+        >
+          DevFest
+        </button>
+      </div>
+    </nav>
+    <div class="container mt-2">
+      <!-- <h2 class="mt-4 mb-4">About</h2> -->
+      <div class="row">
+        <div class="jumbotron jumbotron-main" id="home">
+          <div id="particles-js">
+            <canvas
+              class="particles-js-canvas-el"
+              width="1409"
+              height="319"
+              style="width: 100%; height: 100%"
+            ></canvas>
+          </div>
+          <!-- /.particles div -->
+          <div class="container center-vertically-holder">
+            <div class="center-vertically">
+              <!-- <div
+                class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 text-center test"
+              > -->
+              <div class="text-center">
+                <h1
+                  class="scaleReveal"
+                  data-sr-id="46"
+                  style="
+                    visibility: visible;
+                    -webkit-transform: translateY(0) scale(1);
+                    opacity: 1;
+                    transform: translateY(0) scale(1);
+                    opacity: 1;
+                    -webkit-transition: -webkit-transform 1.5s
+                        cubic-bezier(0.6, 0.2, 0.1, 1) 0.05s,
+                      opacity 1.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0.05s;
+                    transition: transform 1.5s cubic-bezier(0.6, 0.2, 0.1, 1)
+                        0.05s,
+                      opacity 1.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0.05s;
+                    padding-top: 80px;
+                  "
+                >
+                  GDG DevFest 2020
+                </h1>
+                <hr
+                  class="bottomReveal"
+                  data-sr-id="1"
+                  style="
+                    visibility: visible;
+                    -webkit-transform: translateY(0) scale(1);
+                    opacity: 1;
+                    transform: translateY(0) scale(1);
+                    opacity: 1;
+                    -webkit-transition: -webkit-transform 1.5s
+                        cubic-bezier(0.6, 0.2, 0.1, 1) 0.05s,
+                      opacity 1.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0.05s;
+                    transition: transform 1.5s cubic-bezier(0.6, 0.2, 0.1, 1)
+                        0.05s,
+                      opacity 1.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0.05s;
+                  "
+                />
+                <p
+                  class="bottomReveal"
+                  data-sr-id="2"
+                  style="
+                    visibility: visible;
+                    -webkit-transform: translateY(0) scale(1);
+                    opacity: 1;
+                    transform: translateY(0) scale(1);
+                    opacity: 1;
+                    -webkit-transition: -webkit-transform 1.5s
+                        cubic-bezier(0.6, 0.2, 0.1, 1) 0.05s,
+                      opacity 1.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0.05s;
+                    transition: transform 1.5s cubic-bezier(0.6, 0.2, 0.1, 1)
+                        0.05s,
+                      opacity 1.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0.05s;
+                  "
+                >
+                  <button
+                    class="btn btn-primary my-2 my-sm-0"
+                    onclick="window.open('https://gdg.community.dev/events/details/google-gdg-adelaide-presents-gdg-adelaide-devfest-2020/#/','_blank')"
+                  >
+                    RSVP NOW
+                  </button>
+                </p>
+                <a href="#ideology" data-id="ideology" class="scroll-link">
+                  <div
+                    class="scroll-indicator rotateBottomReveal"
+                    data-sr-id="40"
+                    style="
+                      visibility: visible;
+                      -webkit-transform: translateY(0) scale(1) rotateX(0);
+                      opacity: 1;
+                      transform: translateY(0) scale(1) rotateX(0);
+                      opacity: 1;
+                      -webkit-transition: -webkit-transform 1.5s
+                          cubic-bezier(0.6, 0.2, 0.1, 1) 0.05s,
+                        opacity 1.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0.05s;
+                      transition: transform 1.5s cubic-bezier(0.6, 0.2, 0.1, 1)
+                          0.05s,
+                        opacity 1.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0.05s;
+                    "
+                  >
+                    <span class="ion-mouse"></span><br />
+                    <span
+                      class="ion-android-arrow-down arrow-scroll-indicator"
+                    ></span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="mt-4 mb-4">Our Community</h2>
+      <div class="row">
+        <div class="container">
+          <main class="grid">
+            <article>
+              <img
+                src="./img/connect.jpeg"
+                alt="Sample photo"
+                style="width: 400px; height: 250px"
+              />
+              <i class="fas fa-users"></i>
+              <div class="text">
+                <h3>Connect</h3>
+                <p>
+                  Meet other local developers and those interested in developer
+                  technologies. All are welcome, including those with diverse
+                  backgrounds and those from a variety of companies and
+                  industries.
+                </p>
+                <a
+                  href="https://www.facebook.com/GDGAdelaide"
+                  class="btn btn-primary btn-block"
+                  target="_blank"
+                  >Join Our Facebook Page</a
+                >
+              </div>
+            </article>
+            <article>
+              <img src="./img/learn.jpeg" alt="Sample photo" />
+              <i class="fas fa-chalkboard-teacher"></i>
+              <div class="text">
+                <h3>Learn</h3>
+                <p>
+                  Learn about a wide range of technical topics where you can
+                  gain new skills through hands-on workshops and in-person
+                  training.
+                </p>
+                <br />
+                <a
+                  href="https://www.youtube.com/channel/UCm-NvIHktSl6au9XP-mWHxg"
+                  class="btn btn-primary btn-block"
+                  target="_blank"
+                  >Catch Up on Past Talks!</a
+                >
+              </div>
+            </article>
+            <article>
+              <img src="./img/grow.jpeg" alt="Sample photo" />
+              <i class="fas fa-suitcase"></i>
+              <div class="text">
+                <h3>Grow</h3>
+                <p>
+                  Apply your new learnings and connections to build great
+                  products, advance your skills, career and network. Give back
+                  to your community by helping others learn as well.
+                </p>
+                <a
+                  href="https://www.meetup.com/GDG-Adelaide/"
+                  class="btn btn-primary btn-block"
+                  target="_blank"
+                  >Find out our next event!</a
+                >
+              </div>
+            </article>
+          </main>
+        </div>
+      </div>
+    </div>
+
+    <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">
+              GDG Adelaide is an independent group; our activities and the
+              opinions expressed here should in no way be linked to Google, the
+              corporation. To learn more about the GDG program, visit
+              <b>
+                <a
+                  style="color: white"
+                  href="https://developers.google.com/community/gdg/"
+                  onMouseOver="this.style.color='#3366cc'"
+                  onMouseOut="this.style.color='white'"
+                  target="_blank"
+                  >Google Developer Groups</a
+                >
+              </b>
+            </p>
+          </div>
+
+          <div class="col-xs-6 col-md-6">
+            <a href="."
+              ><img
+                style="background-color: white; float: right"
+                class="logo"
+                src="./img/gdg-logo.png"
+                alt="logo"
+            /></a>
+            <!-- <h6>Categories</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/category/c-language/">C</a></li>
+              <li>
+                <a href="http://scanfcode.com/category/front-end-development/"
+                  >UI Design</a
+                >
+              </li>
+              <li>
+                <a href="http://scanfcode.com/category/back-end-development/"
+                  >PHP</a
+                >
+              </li>
+              <li>
+                <a
+                  href="http://scanfcode.com/category/java-programming-language/"
+                  >Java</a
+                >
+              </li>
+              <li>
+                <a href="http://scanfcode.com/category/android/">Android</a>
+              </li>
+              <li>
+                <a href="http://scanfcode.com/category/templates/">Templates</a>
+              </li>
+            </ul> -->
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <!-- <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/about/">About Us</a></li>
+              <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+              <li>
+                <a href="http://scanfcode.com/contribute-at-scanfcode/"
+                  >Contribute</a
+                >
+              </li>
+              <li>
+                <a href="http://scanfcode.com/privacy-policy/"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+            </ul> -->
+          </div>
+        </div>
+        <hr />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">
+              Copyright &copy; 2020 All Rights Reserved by
+
+              <a
+                style="color: white"
+                href="https://gdg.community.dev/gdg-adelaide/"
+                onMouseOver="this.style.color='#3366cc'"
+                onMouseOut="this.style.color='white'"
+                target="_blank"
+                >GDG Adelaide</a
+              >.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li>
+                <a
+                  class="facebook"
+                  href="https://www.facebook.com/GDGAdelaide"
+                  target="_blank"
+                  ><i class="fab fa-facebook-square"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="youtube"
+                  href="https://www.youtube.com/channel/UCm-NvIHktSl6au9XP-mWHxg"
+                  target="_blank"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="linkedin"
+                  href="https://gdg.community.dev/gdg-adelaide/"
+                  target="_blank"
+                  ><svg
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 16 16"
+                    class="bi bi-code"
+                    fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M5.854 4.146a.5.5 0 0 1 0 .708L2.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm4.292 0a.5.5 0 0 0 0 .708L13.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"
+                    /></svg
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="dribbble"
+                  href="https://www.meetup.com/GDG-Adelaide/"
+                  target="_blank"
+                  ><i class="fab fa-meetup"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
